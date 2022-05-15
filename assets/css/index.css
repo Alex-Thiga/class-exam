@@ -1,1 +1,14 @@
-
+span {
+  color: rgb(42, 42, 187);
+  margin-left: 100px;
+}
+.section {
+  text-align: center;
+  margin-top: 200px;
+}
+.section > a {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 15px 20px;
+  background-color: rgb(179, 177, 177);
+}
