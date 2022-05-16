@@ -5,7 +5,7 @@ function check ()
     var answer2 = document.test.qtn2.value;
     var answer3 = document.test.qtn3.value;
     var answer4 = document.test.qtn4.value;
-    if ( answer1 == 'nairobi' ) {
+    if ( answer1 == "nairobi" ) {
         marks++;
     }
     if ( answer2 == "wamalwa" ) {
