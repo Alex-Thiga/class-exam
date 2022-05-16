@@ -3,8 +3,8 @@ span {
   margin-left: 100px;
 }
 .section {
-  text-align: center;
-  margin-top: 200px;
+  text-align:justify;
+  margin: 200px 500px;
 }
 .section > a {
   text-decoration: none;
