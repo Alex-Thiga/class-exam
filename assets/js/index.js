@@ -21,5 +21,7 @@ function check() {
   }
 
   var finalMark = document.getElementById("finalMark");
-  finalMark.textContent = `${marks}`;
+  finalMark.textContent = `${ marks }`;
+  var test = document.getElementById( 'test' )
+  test.style.display="none"
 }
