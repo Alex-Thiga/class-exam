@@ -20,8 +20,17 @@ function check() {
     marks++;
   }
 
-  var finalMark = document.getElementById("finalMark");
-  finalMark.textContent = `${ marks }`;
+  var finalMark = document.getElementById( "finalMark" );
+  if ( marks > 3 )
+  {
+    finalMark.textContent = "You have excellently passed";
+  } else if ( marks >= 2 )
+  {
+    finalMark.textContent = "You have fairly passed";
+  } else ( marks < 2 ); {
+    finalMark.textContent="You have poorly passed. You need to redo the test"
+  }
+  
   var test = document.getElementById( 'test' )
   test.style.display="none"
 }
